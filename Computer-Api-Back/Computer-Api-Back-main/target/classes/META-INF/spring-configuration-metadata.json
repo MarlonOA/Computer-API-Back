@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "rsa",
+      "type": "project.ufrn.pw.api_rest.config.RsaKeyProperties",
+      "sourceType": "project.ufrn.pw.api_rest.config.RsaKeyProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "rsa.private-key",
+      "type": "java.security.interfaces.RSAPrivateKey",
+      "sourceType": "project.ufrn.pw.api_rest.config.RsaKeyProperties"
+    },
+    {
+      "name": "rsa.public-key",
+      "type": "java.security.interfaces.RSAPublicKey",
+      "sourceType": "project.ufrn.pw.api_rest.config.RsaKeyProperties"
+    }
+  ],
+  "hints": []
+}
